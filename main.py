@@ -1,12 +1,4 @@
 import pandas
-#
-# data = pandas.read_csv("weather_data.csv")
-#
-# temp_list = data["temp"].to_list()
-#
-# monday_temp = data[data.day == "Monday"]
-# fa = (int(monday_temp.temp)*(9/5))+32
-# print(fa)
 
 data = pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
 squirrel_colors = data["Primary Fur Color"]
